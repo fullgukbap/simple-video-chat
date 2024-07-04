@@ -17,7 +17,6 @@ const wsServer = SocketIO(httpServer);
 
 
 wsServer.on("connection", socket => {
-   console.log("new connection");
 });
 
 
